@@ -4,6 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333; /* Dark background color */
+    padding: 10px; /* Padding around the navbar */
+}
+
+/* Style the list inside the navbar */
+.nav-list {
+    list-style: none; /* Remove bullet points from the list */
+    display: flex; /* Display list items in a row */
+    justify-content: center; /* Center the items horizontally */
+}
+
+/* Style each navigation item */
+.nav-item {
+    margin: 0 15px; /* Space between each item */
+}
+
+/* Style the links */
+.nav-link {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size */
+    padding: 5px 10px; /* Padding around the text */
+    display: inline-block; /* Make the link a block-level element for padding */
+}
+
+/* Add a hover effect */
+.nav-link:hover {
+    background-color: #575757; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
 
 /* Body */
 body {
